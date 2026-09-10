@@ -8,13 +8,13 @@
                 Una maratón tiene 26 millas y 385 yardas. Sabiendo que una milla tiene 1760 yardas, calcular la
                 distancia de la maratón en kilómetros. 
             */
-            double milla, yardas, maraton, totalYardas, yardasAKilometros;
+            double milla, yardas, totalYardas, yardasAKilometros;
 
             Console.WriteLine("Ingresa la cantidad de millas de la maraton: ");
-            milla = int.Parse(Console.ReadLine());
+            milla = double.Parse(Console.ReadLine());
 
             Console.WriteLine("Ingresa la cantidad de yardas de la maraton: ");
-            yardas = int.Parse(Console.ReadLine());
+            yardas = double.Parse(Console.ReadLine());
 
 
             totalYardas = milla * 1760 + yardas;
