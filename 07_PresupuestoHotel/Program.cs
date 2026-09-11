@@ -43,12 +43,6 @@
             Console.WriteLine("Muchas gracias.");
 
 
-
-
-
-
-
-
         }
     }
 }
